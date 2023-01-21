@@ -2,10 +2,14 @@
 public class Smallest {
 
     public static int smallest(int number1, int number2) {
-        // Write some code here
-        // don't print anything inside this method
-        // there must be a return in the end of the method
-        return -1;
+        int small;
+        if(number1 > number2){
+            small = number2;
+        } else{
+            small = number1;
+        }
+    
+        return small;
     }
 
     public static void main(String[] args) {
